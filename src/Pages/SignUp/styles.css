@@ -1,0 +1,40 @@
+.conatiner-sign-up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background-image: url(../../Assets/pexels-fauxels-3184357.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+
+  font-family: 'Rubik', sans-serif;
+}
+
+.content-sign-up{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.content-sign-up form{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 24px;
+  min-height: 420px;
+  width: 400px;
+}
+
+.content-sign-up form a{
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 12px;
+  font-family: 'Lato', sans-serif;
+}
